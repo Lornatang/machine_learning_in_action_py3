@@ -1,7 +1,7 @@
 from numpy import *
-random.rand(4, 4)
+print(random.rand(4, 4))
 randMat = mat(random.rand(4, 4))
-randMat.I
+print(randMat.I)
 invRandMat = randMat.I
 myEye = randMat * invRandMat
-myEye - eye(4)
+print(myEye - eye(4))
