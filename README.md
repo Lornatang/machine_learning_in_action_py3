@@ -1,4 +1,4 @@
-#机器学习实战笔记(附:[源代码]()) 基于 *[GNU3.0](https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE)* 协议
+#机器学习实战笔记(附:[源代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src)) 基于 *[GNU3.0](https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE)* 协议
 
 ##第一部分 分类
 
@@ -16,7 +16,7 @@
    
 - **掌握[numpy](http://www.numpy.org/)函数库基础**
 
-`>>from numpy import *`
+    `>>from numpy import *`
 
 ###第二章 K-近邻算法
 
@@ -25,4 +25,6 @@
     - 优点:精度高,对异常值步敏感，无数据输入假定。
     - 缺点:计算复杂度高，空间复杂度高。
     - 范围:数值型和标称型。
+    
+    
     
