@@ -1,8 +1,8 @@
-#机器学习实战笔记(附:[源代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src)) 基于 *[GNU3.0](https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE)* 协议
+# 机器学习实战笔记(附:[源代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src)) 基于 *[GNU3.0](https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE)* 协议
 
-##第一部分 分类
+## 第一部分 分类
 
-###第一章 机器学习基础
+### 第一章 机器学习基础
 
 - **熟悉[Python](https://www.python.org/)即可。**
 - **开发机器学习应用程序步骤**
@@ -18,7 +18,7 @@
 
     `>>from numpy import *`
 
-###第二章 K-近邻算法
+### 第二章 K-近邻算法
 
 - **K-近邻算法优缺点**
 
