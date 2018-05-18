@@ -1,8 +1,11 @@
+<p align = "center"> <img width = "40％"  src = "logo/logo.jpeg"/> </p>
+
+
 # 机器学习实战笔记(附:[源代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src)) 基于 *[GNU3.0](https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE)* 协议
 
 ## 第一部分 分类
 
-### 第一章 机器学习基础
+### 第一章 机器学习基础([代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch01))
 
 - **熟悉[Python](https://www.python.org/)即可。**
 - **开发机器学习应用程序步骤**
@@ -18,7 +21,7 @@
 
     `>> from numpy import *`
 
-### 第二章 K-近邻算法
+### 第二章 K-近邻算法([代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch02))
 
 - **K-近邻算法优缺点**
 
@@ -49,7 +52,7 @@
 
 **K-近邻算法是最简单的分类算法，如果数据量太大，会变得非常耗时。**
 
-### 第三章 决策树
+### 第三章 决策树([代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch03))
 
 - **决策树算法优缺点**
 
