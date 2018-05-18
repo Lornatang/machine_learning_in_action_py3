@@ -1,4 +1,4 @@
-<p align = "center"> <img width = "200％"  src = "logo/logo.jpeg"/> </p>
+<p align = "center"> <img width = "350％"  src = "logo/logo.jpeg"/> </p>
 
 
 # 机器学习实战笔记(附:[源代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src)) 基于 *[GNU3.0](https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE)* 协议

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4debf451-111f-4bbd-82d2-30171f46836a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch03/treePlotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -30,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <first_editor>
+                <caret column="37" selection-start-column="37" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -359,7 +357,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526652338135</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update README.md">
+      <created>1526655027313</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1526655027313</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update README.md">
+      <created>1526655065866</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1526655065866</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -436,10 +448,10 @@
     <MESSAGE value="numpy函数库基础" />
     <MESSAGE value="update src to here" />
     <MESSAGE value="update KNN.py" />
-    <MESSAGE value="update README.md" />
     <MESSAGE value="update trees.;y" />
     <MESSAGE value="update trees.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="update trees.py" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -572,8 +584,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <first_editor>
+            <caret column="37" selection-start-column="37" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
