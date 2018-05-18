@@ -70,9 +70,9 @@ def datingClassTest():
     errorCount = 0.0
     for i in range(numTestVecs):
         classifierResult = classify0(normMat[i,:],normMat[numTestVecs:m,:],datingLabels[numTestVecs:m],3)
-        print("the classifier came back with: %d, the real answer is: %d" % (classifierResult, datingLabels[i]))
+        print("the classifier came back with: {}, the real answer is: {}".format(classifierResult, datingLabels[i]))
         if (classifierResult != datingLabels[i]): errorCount += 1.0
-    print("the total error rate is: %f" % (errorCount/float(numTestVecs)))
+    print("the total error rate is:{%f}".format(errorCount/float(numTestVecs)))
     print(errorCount)
     
 def classifyPerson():
@@ -86,7 +86,7 @@ def classifyPerson():
     inArr = array([ffMiles, percentTats, iceCream, ])
     classifierResult = classify0((inArr - \
                                   minVals)/ranges, normMat, datingLabels, 3)
-    print("You will probably like this person: %s" % resultList[classifierResult - 1])
+    print("You will probably like this person: {}".format(resultList[classifierResult - 1]))
     
 def img2vector(filename):
     returnVect = zeros((1,1024))
@@ -107,7 +107,7 @@ def handwritingClassTest():
         fileStr = fileNameStr.split('.')[0]     #take off .txt
         classNumStr = int(fileStr.split('_')[0])
         hwLabels.append(classNumStr)
-        trainingMat[i,:] = img2vector('trainingDigits/%s' % fileNameStr)
+        trainingMat[i,:] = img2vector('trainingDigits/{}'.format(fileNameStr))
     testFileList = listdir('testDigits')        #iterate through the test set
     errorCount = 0.0
     mTest = len(testFileList)
@@ -115,9 +115,9 @@ def handwritingClassTest():
         fileNameStr = testFileList[i]
         fileStr = fileNameStr.split('.')[0]     #take off .txt
         classNumStr = int(fileStr.split('_')[0])
-        vectorUnderTest = img2vector('testDigits/%s' % fileNameStr)
+        vectorUnderTest = img2vector('testDigits/{}'.format(fileNameStr))
         classifierResult = classify0(vectorUnderTest, trainingMat, hwLabels, 3)
-        print("the classifier came back with: %d, the real answer is: %d" % (classifierResult, classNumStr))
+        print("the classifier came back with: {}, the real answer is: {}".format(classifierResult, classNumStr))
         if (classifierResult != classNumStr): errorCount += 1.0
-    print("\nthe total number of errors is: %d" % errorCount)
-    print("\nthe total error rate is: %f" % (errorCount/float(mTest)))
+    print("\nthe total number of errors is: {}".formaterrorCount)
+    print("\nthe total error rate is: {%f}".format(errorCount/float(mTest)))
