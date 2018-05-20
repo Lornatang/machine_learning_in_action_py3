@@ -7,7 +7,6 @@ Create by 2018-05-20
 from numpy import *
 import re
 import operator
-import feedparser
 
 
 # 加载数据
