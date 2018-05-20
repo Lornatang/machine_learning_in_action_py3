@@ -1,13 +1,13 @@
 <p align = "center"> <img width = "350％"  src = "logo/logo.jpeg"/> </p>
 
 
-# 机器学习实战笔记(附:[源代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src)) 基于 *[GNU3.0](https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE)* 协议
+# 机器学习实战笔记(附:[源代码][src] 基于 **[GNU3.0][license]** 协议[当前版本][version]
 
 ## 第一部分 分类
 
-### 第一章 机器学习基础([代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch01))
+### 第一章 机器学习基础[代码][ch01]
 
-- **熟悉[Python](https://www.python.org/)即可。**
+- **熟悉[Python][Python]即可。**
 - **开发机器学习应用程序步骤**
 
     - <p>1.收集数据。</p>
@@ -17,11 +17,11 @@
     - <p>5.测试算法。</p>
     - <p>6.使用算法。</p>
    
-- **掌握[numpy](http://www.numpy.org/)函数库基础**
+- **掌握[numpy][numpy]函数库基础**
 
     `>> from numpy import *`
 
-### 第二章 K-近邻算法([代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch02))
+### 第二章 K-近邻算法[代码][ch02]
 
 - **K-近邻算法优缺点**
 
@@ -52,7 +52,7 @@
 
 **K-近邻算法是最简单的分类算法，如果数据量太大，会变得非常耗时。**
 
-### 第三章 决策树([代码](https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch03))
+### 第三章 决策树[代码][ch03]
 
 - **决策树算法优缺点**
 
@@ -110,7 +110,7 @@
 
 **这里主要是采用`ID3算法划`分数据集，用递归的方法将数据集转化为决策树，并可用`pickle模块存`储决策树的结构。ID3算法无法处理直接数值型数据，需要将其化为标量型数值。决策树最大的缺点在于`过拟合问题`。在构建树的时候，其能够完全匹配实验数据，但是这并不是我们想要的，为此，可以删掉一些只增加了很少信息的节点，将其并入到其他叶子节点中，或者裁剪一些分支。具体决策树的很多问题也待整理。**
 
-### 基于概率论的分类方法:朴素贝叶斯
+### 基于概率论的分类方法:朴素贝叶斯[代码][ch04]
 
 - **基于贝叶斯决策理论算法优缺点**
 
@@ -121,3 +121,25 @@
 - **Tip:贝叶斯决策理论的核心思想是选择高概率对应的类别，即选择具有最高概率的决策**
 
 - 条件概率:
+
+
+[src]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src
+[license]:https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE
+[version]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/__version__
+[python]:https://www.python.org/
+[numpy]:http://www.numpy.org/
+[ch01]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch01
+[ch02]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch02
+[ch03]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch03
+[ch04]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch04
+[ch05]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch05
+[ch06]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch06
+[ch07]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch07
+[ch08]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch08
+[ch09]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch09
+[ch10]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch10
+[ch11]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch11
+[ch12]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch12
+[ch13]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch13
+[ch14]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch14
+[ch15]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch15
