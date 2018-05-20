@@ -1,9 +1,7 @@
 <p align = "center"> <img width = "350％"  src = "logo/logo.jpeg"/> </p>
 
-
-# 机器学习实战笔记(附:[源代码][src] 基于 **[GNU3.0][license]** 协议 [版本号][version][作者][author]
-
-
+# 机器学习实战笔记(附:[源代码][src] 基于 **[GNU3.0][license]** 协议 
+附： [版本号][version] [作者][author]
 
 ## 第一部分 分类
 
@@ -197,23 +195,43 @@
     
 
 [src]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src
+
 [license]:https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE
+
 [version]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/__version__
+
 [author]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/__author__
+
 [python]:https://www.python.org/
+
 [numpy]:http://www.numpy.org/
+
 [ch01]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch01
+
 [ch02]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch02
+
 [ch03]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch03
+
 [ch04]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch04
+
 [ch05]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch05
+
 [ch06]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch06
+
 [ch07]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch07
+
 [ch08]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch08
+
 [ch09]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch09
+
 [ch10]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch10
+
 [ch11]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch11
+
 [ch12]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch12
+
 [ch13]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch13
+
 [ch14]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch14
+
 [ch15]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch15
