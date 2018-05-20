@@ -189,7 +189,12 @@
 7. 例子:使用朴素贝叶斯从个人广告中获取区域倾向
 
     1. 收集数据:导入RSS源
+    
     2. 分析数据:显示低于相关的用词
+
+    **Tip:这里训练测试的方法是从总的数据集中随机选择数字，将其添加到测试集中，同时将其从训练集中剔除。这种随机选择数据的一部分作为训练集，而剩余部分作为测试集的过程为留存交叉验证（hold-out cross validation）。有时为了更精确地估计分类器的错误率，就应该进行多次迭代后求出平均错误率。**
+
+    
 
 [src]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src
 [license]:https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE

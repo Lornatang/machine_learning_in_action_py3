@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4debf451-111f-4bbd-82d2-30171f46836a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/__version__" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -29,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2540">
-                <caret line="127" column="93" selection-start-line="127" selection-start-column="93" selection-end-line="127" selection-end-column="93" />
+              <first_editor relative-caret-position="108">
+                <caret line="196" column="4" lean-forward="true" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -377,7 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526794062117</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update README.md">
+      <created>1526796292409</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1526796292409</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update README.md">
+      <created>1526799344993</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1526799344993</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -611,8 +624,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2540">
-            <caret line="127" column="93" selection-start-line="127" selection-start-column="93" selection-end-line="127" selection-end-column="93" />
+          <first_editor relative-caret-position="108">
+            <caret line="196" column="4" lean-forward="true" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
