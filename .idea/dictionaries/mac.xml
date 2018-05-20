@@ -9,10 +9,12 @@
       <w>inputset</w>
       <w>postinglist</w>
       <w>retdata</w>
+      <w>returnvec</w>
       <w>shannoent</w>
       <w>shiyipaisizuo</w>
       <w>vocablist</w>
       <w>vocabset</w>
+      <w>vocalulary</w>
     </words>
   </dictionary>
 </component>
