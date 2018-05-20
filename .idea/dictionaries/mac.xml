@@ -2,11 +2,17 @@
   <dictionary name="mac">
     <words>
       <w>calcshannonent</w>
+      <w>classvec</w>
       <w>createdataset</w>
+      <w>dalmation</w>
       <w>dataset</w>
+      <w>inputset</w>
+      <w>postinglist</w>
       <w>retdata</w>
       <w>shannoent</w>
       <w>shiyipaisizuo</w>
+      <w>vocablist</w>
+      <w>vocabset</w>
     </words>
   </dictionary>
 </component>
