@@ -1,7 +1,7 @@
 <p align = "center"> <img width = "350％"  src = "logo/logo.jpeg"/> </p>
 
 
-# 机器学习实战笔记(附:[源代码][src] 基于 **[GNU3.0][license]** 协议 [版本号][version]
+# 机器学习实战笔记(附:[源代码][src] 基于 **[GNU3.0][license]** 协议 [版本号][version][作者][author]
 
 
 
@@ -63,7 +63,7 @@
 
     4. 使用数据:将评估错误率，选择`最低评估错误率`来作为首选算法。
 
-5. 小节
+5. **小节**
 
     **K-近邻算法是最简单的分类算法，如果数据量太大，会变得非常耗时。**
 
@@ -132,7 +132,7 @@
     treePlotter.create_plot(lensestree)
     ``` 
     
-9. 小节
+9. **小节**
 
     **这里主要是采用`ID3算法划`分数据集，用递归的方法将数据集转化为决策树，并可用`pickle模块存`储决策树的结构。ID3算法无法处理直接数值型数据，需要将其化为标量型数值。决策树最大的缺点在于`过拟合问题`。在构建树的时候，其能够完全匹配实验数据，但是这并不是我们想要的，为此，可以删掉一些只增加了很少信息的节点，将其并入到其他叶子节点中，或者裁剪一些分支。具体决策树的很多问题也待整理。**
 
@@ -148,11 +148,11 @@
     
 2. **Tip:贝叶斯决策理论的核心思想是选择高概率对应的类别，即选择具有最高概率的决策**
 
-3. 贝叶斯法则
+3. **贝叶斯法则**
 
     **后验概率 = 标准似然度 * 先验概率。**
 
-4. 贝叶斯定理
+4. **贝叶斯定理**
 
     1. 对于变量有二个以上的情况，贝叶斯定理亦成立。例如：
     
@@ -160,7 +160,7 @@
         
         2. 这个式子可以由套用多次二个变量的贝叶斯定理及条件机率的定义导出。
         
-5. 使用Python进行文本分类
+5. **使用Python进行文本分类**
 
     1. 背景
     
@@ -180,13 +180,13 @@
     
     5. 准备数据:文档词袋模型
 
-6. 例子:使用朴素贝叶斯过滤垃圾邮件
+6. **例子:使用朴素贝叶斯过滤垃圾邮件**
 
     1. 准备数据:切分文本
     
     2. 测试算法:使用朴素贝叶进行交叉验证
 
-7. 例子:使用朴素贝叶斯从个人广告中获取区域倾向
+7. **例子:使用朴素贝叶斯从个人广告中获取区域倾向**
 
     1. 收集数据:导入RSS源
     
@@ -199,6 +199,7 @@
 [src]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src
 [license]:https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE
 [version]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/__version__
+[author]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/__author__
 [python]:https://www.python.org/
 [numpy]:http://www.numpy.org/
 [ch01]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch01
