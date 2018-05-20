@@ -12,12 +12,11 @@ import operator
 # 加载数据
 def load_data_set():
     posting_list = [['my', 'dog', 'has', 'flea', 'problems', 'help', 'please'],
-                   ['maybe', 'not', 'take', 'him', 'to', 'dog', 'park', 'stupid'],
-                   ['my', 'dalmation', 'is', 'so', 'cute', 'I', 'love', 'him'],
-                   ['stop', 'posting', 'stupid', 'worthless', 'garbage'],
-                   ['mr', 'licks', 'ate', 'my', 'steak',
-                    'how', 'to', 'stop', 'him'],
-                   ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
+                    ['maybe', 'not', 'take', 'him', 'to', 'dog', 'park', 'stupid'],
+                    ['my', 'dalmation', 'is', 'so', 'cute', 'I', 'love', 'him'],
+                    ['stop', 'posting', 'stupid', 'worthless', 'garbage'],
+                    ['mr', 'licks', 'ate', 'my', 'steak', 'how', 'to', 'stop', 'him'],
+                    ['quit', 'buying', 'worthless', 'dog', 'food', 'stupid']]
 
     # 1代表侮辱性文字， 0代表正常言论
     class_vec = [0, 1, 0, 1, 0, 1]
@@ -48,7 +47,7 @@ def set_of_word_vec(vocab_list, input_set):
         if word in vocab_list:
             vec[vocab_list.index(word)] = 1
         else:
-            print("The word:{} is not in my vocalulary!").format(word)
+            print("The word:%s is not in my vocalulary!" % word)
 
     return vec
 

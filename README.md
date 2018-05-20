@@ -125,7 +125,8 @@
    fr = open('lensens.txt')
    lenses = [inst.strip().split('\t') for inst in fr.readlines()]
    lenseslabels = ['age', 'prescipt', 'astigmatic', 'tearRate']
-   lensestree = trees.create_tree(lenses, lenseslabels)    lensestree
+   lensestree = trees.create_tree(lenses, lenseslabels)    
+   lensestree
    treePlotter.create_plot(lensestree)
     ``` 
     
@@ -191,7 +192,9 @@
 
     **Tip:这里训练测试的方法是从总的数据集中随机选择数字，将其添加到测试集中，同时将其从训练集中剔除。这种随机选择数据的一部分作为训练集，而剩余部分作为测试集的过程为留存交叉验证（hold-out cross validation）。有时为了更精确地估计分类器的错误率，就应该进行多次迭代后求出平均错误率。**
 
+8.  **小节**
     
+    **贝叶斯可以通过特征之间的独立性假设，降低对数据量的需求。尽管条件独立性的假设并不正确，但是朴素贝叶斯仍然是一种有效的分类器**    
 
 [src]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src
 
