@@ -121,13 +121,12 @@
 
     **目标:通过决策树预测患者需要佩戴的隐形眼睛类型。**
     ```python
-    import trees
-    fr = open('lensens.txt')
-    lenses = [inst.strip().split('\t') for inst in fr.readlines()]
-    lenseslabels = ['age', 'prescipt', 'astigmatic', 'tearRate']
-    lensestree = trees.create_tree(lenses, lenseslabels)
-    lensestree
-    treePlotter.create_plot(lensestree)
+   import trees
+   fr = open('lensens.txt')
+   lenses = [inst.strip().split('\t') for inst in fr.readlines()]
+   lenseslabels = ['age', 'prescipt', 'astigmatic', 'tearRate']
+   lensestree = trees.create_tree(lenses, lenseslabels)    lensestree
+   treePlotter.create_plot(lensestree)
     ``` 
     
 9. **小节**
