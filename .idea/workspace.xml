@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4debf451-111f-4bbd-82d2-30171f46836a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch05/logRegres.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04/bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04/bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch05/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05/logRegres.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,25 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logRegres.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="logRegres.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch05/logRegres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="454">
+              <caret line="162" column="6" selection-start-line="162" selection-start-column="6" selection-end-line="162" selection-end-column="6" />
               <folding>
                 <element signature="e#54#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bayes.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch04/bayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="245" column="14" selection-start-line="245" selection-start-column="14" selection-end-line="245" selection-end-column="14" />
-              <folding>
-                <element signature="e#54#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +79,8 @@
         <option value="$PROJECT_DIR$/__version__" />
         <option value="$PROJECT_DIR$/author" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/ch05/logRegres.py" />
         <option value="$PROJECT_DIR$/src/ch04/bayes.py" />
+        <option value="$PROJECT_DIR$/src/ch05/logRegres.py" />
       </list>
     </option>
   </component>
@@ -474,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526859320561</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update bayes.py">
+      <created>1526871804830</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1526871804830</updated>
+    </task>
+    <task id="LOCAL-00029" summary="create logRegres.py">
+      <created>1526871838153</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1526871838153</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -491,7 +492,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32900432" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50147927" side_tool="true" weight="0.3272727" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50147927" side_tool="true" weight="0.3266762" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
@@ -553,9 +554,10 @@
     <MESSAGE value="update KNN.py" />
     <MESSAGE value="update trees.;y" />
     <MESSAGE value="update trees.py" />
-    <MESSAGE value="update bayes.py" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="update bayes.py" />
+    <MESSAGE value="create logRegres.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="create logRegres.py" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -723,22 +725,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch05/logRegres.py">
+    <entry file="file://$PROJECT_DIR$/src/ch04/bayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="743">
+          <caret line="245" column="14" selection-start-line="245" selection-start-column="14" selection-end-line="245" selection-end-column="14" />
           <folding>
-            <element signature="e#54#85#0" expanded="true" />
+            <element signature="e#54#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch04/bayes.py">
+    <entry file="file://$PROJECT_DIR$/src/ch05/logRegres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="245" column="14" selection-start-line="245" selection-start-column="14" selection-end-line="245" selection-end-column="14" />
+        <state relative-caret-position="454">
+          <caret line="162" column="6" selection-start-line="162" selection-start-column="6" selection-end-line="162" selection-end-column="6" />
           <folding>
-            <element signature="e#54#73#0" expanded="true" />
+            <element signature="e#54#85#0" expanded="true" />
           </folding>
         </state>
       </provider>
