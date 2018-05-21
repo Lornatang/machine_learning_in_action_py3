@@ -187,10 +187,6 @@ def calc_most_freq(vocab_list, full_text):
     return sorted_freq[:30]
 
 
-def pSpam(args):
-    pass
-
-
 def local_words(feed0, feed1):
     doc_list = []
     class_list = []
@@ -198,25 +194,29 @@ def local_words(feed0, feed1):
 
     min_len = min(len(feed1['entries']), len(feed0['entries']))
 
+    # 每次访问一条RSS源
     for i in range(min_len):
         word_list = text_parse(feed1['entries'][i]['summary'])
         doc_list.append(word_list)
         full_text.extend(word_list)
         class_list.append(1)  # NY is class 1
+
         word_list = text_parse(feed0['entries'][i]['summary'])
         doc_list.append(word_list)
         full_text.extend(word_list)
         class_list.append(0)
 
-    vocab_list = create_vocab_list(doc_list)  # create vocabulary
-    top_words = calc_most_freq(vocab_list, full_text)  # remove top 30 words
+    vocab_list = create_vocab_list(doc_list)
+
+    # 去掉那一些出现频率最高的词
+    top_words = calc_most_freq(vocab_list, full_text)
 
     for pair_w in top_words:
         if pair_w[0] in vocab_list:
             vocab_list.remove(pair_w[0])
 
     train_set = range(2*min_len)
-    test_set = []  # create test set
+    test_set = []  #
 
     for i in range(20):
         rand_index = int(random.uniform(0, len(train_set)))
@@ -226,33 +226,43 @@ def local_words(feed0, feed1):
     train_matrix = []
     train_class = []
 
-    for docIndex in train_set:  # train the classifier (get probs) trainNB0
+    for docIndex in train_set:
         train_matrix.append(bag_of_word_vec(vocab_list, doc_list[docIndex]))
         train_class.append(class_list[docIndex])
+
     p0_vec, p1_vec, p_spam = train(array(train_matrix), array(train_class))
     error_count = 0
-    for doc_index in test_set:  # classify the remaining items
+
+    for doc_index in test_set:
         word_vector = bag_of_word_vec(vocab_list, doc_list[doc_index])
         if classify(array(word_vector), p0_vec, p1_vec, p_spam) != class_list[doc_index]:
             error_count += 1
+
     print('the error rate is: ', float(error_count)/len(test_set))
+
     return vocab_list, p0_vec, p1_vec
 
 
+# 最具特征性的词汇显示函数
 def get_top_words(ny, sf):
     vocab_list, p0_vec, p1_vec = local_words(ny, sf)
     top_ny = []
     top_sf = []
+
     for i in range(len(p0_vec)):
         if p0_vec[i] > -6.0:
             top_sf.append((vocab_list[i], p0_vec[i]))
         if p1_vec[i] > -6.0:
             top_ny.append((vocab_list[i], p1_vec[i]))
+
     sorted_sf = sorted(top_sf, key=lambda pair: pair[1], reverse=True)
     print("sf**sf**sf**sf**sf**sf**sf**sf**sf**sf**sf**sf**sf**sf**sf**sf**")
+
     for item in sorted_sf:
         print(item[0])
+
     sorted_ny = sorted(top_ny, key=lambda pair: pair[1], reverse=True)
     print("ny**ny**ny**ny**ny**ny**ny**ny**ny**ny**ny**ny**ny**ny**ny**ny**")
+
     for item in sorted_ny:
         print(item[0])
