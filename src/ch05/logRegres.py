@@ -5,6 +5,8 @@ Create by 2018-05-21
 """
 import matplotlib.pyplot as plt
 from numpy import *
+import math
+from numpy.ma import array
 
 
 # 加载数据
@@ -24,7 +26,7 @@ def load_data_set():
 
 def sigmoid(X):
 
-    return 1.0 / (1+exp(-X))
+    return 1.0 / (1+math.exp(-X))
 
 
 # Logistic回归梯度上升优化算法
