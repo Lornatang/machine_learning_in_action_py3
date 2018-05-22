@@ -16,6 +16,7 @@
           <option value="trees" />
           <option value="numpy.random.*" />
           <option value="src.ch06.svmMLiA.*" />
+          <option value="src.ch08.regression.*" />
         </list>
       </option>
     </inspection_tool>
