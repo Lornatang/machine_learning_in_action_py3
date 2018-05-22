@@ -114,7 +114,7 @@ def smoSimple(dataMatIn, classLabels, C, toler, maxIter):
             iter += 1
         else:
             iter = 0
-        print("iteration number: {}").format(iter)
+        print("iteration number: {}".format(iter))
     return b, alphas
 
 #功能：建立数据结构用于保存所有的重要值
@@ -243,13 +243,13 @@ def smoP(dataMatIn, classLabels, C, toler, maxIter, kTup=('lin', 0)):
         if entireSet:#判断1
             for i in range(oS.m):
                 alphaPairsChanged += innerL(i, oS)
-                print("fullSet, iter: {} i: {}, pairs changed {}").format(iter, i, alphaPairsChanged)
+                print("fullSet, iter: {} i: {}, pairs changed {}".format(iter, i, alphaPairsChanged))
             iter += 1
         else:
             nonBoundIs = nonzero((oS.alphas.A > 0) * (oS.alphas.A < C))[0]
             for i in nonBoundIs:
                 alphaPairsChanged += innerL(i, oS)
-                print("non-bound, iter: {} i: {}, pairs changed {}").format(iter, i, alphaPairsChanged)
+                print("non-bound, iter: {} i: {}, pairs changed {}".format(iter, i, alphaPairsChanged))
             iter += 1
         # 执行判断1时，如果entireSet = True，表示遍历整个集合，alphaPairsChanged = 0，表示未对任意alpha对进行修改
         if entireSet:
@@ -257,7 +257,7 @@ def smoP(dataMatIn, classLabels, C, toler, maxIter, kTup=('lin', 0)):
         #执行判断1时，第一次迭代遍历整个集合，之后就只遍历非边界值，除非遍历非边界值发现没有任意alpha对进行修改，遍历整个集合
         elif (alphaPairsChanged == 0):
             entireSet = True
-        print("iteration number: {}").format(iter)
+        print("iteration number: {}".format(iter))
     return oS.b, oS.alphas
 
 
@@ -303,7 +303,7 @@ def testRbf(k1 = 1.3):
     svInd = nonzero(alphas.A >0)[0]#支持向量的下标
     sVs = datMat[svInd]#支持向量
     labelSV = labelMat[svInd]#支持向量的类别标签
-    print("there are {} Support Vectors").format(shape(sVs)[0])
+    print("there are {} Support Vectors".format(shape(sVs)[0]))
     m, n = shape(datMat)
     errorCount = 0
     for i in range(m):
@@ -311,7 +311,7 @@ def testRbf(k1 = 1.3):
         predict = kernelEval.T * multiply(labelSV, alphas[svInd]) + b#得预测值
         if sign(predict) != sign(labelArr[i]):
             errorCount += 1
-    print("the training error rate is %f").format(float(errorCount) / m)
+    print("the training error rate is {}".format(float(errorCount) / m))
     dataArr, labelArr = loadDataSet('testSetRBF2.txt')
     errorCount = 0
     datMat = mat(dataArr)
@@ -322,7 +322,7 @@ def testRbf(k1 = 1.3):
         predict = kernelEval.T * multiply(labelSV, alphas[svInd]) + b#得验证集预测值
         if sign(predict) != sign(labelArr[i]):
             errorCount += 1
-    print("the test error rate is: %f".format(float(errorCount) / m))
+    print("the test error rate is: {}".format(float(errorCount) / m))
 
 
 #功能：图像矩阵转化为m*1矩阵
@@ -365,7 +365,7 @@ def testDigits(kTup = ('rbf', 10)):
     svInd = nonzero(alphas.A > 0)[0]  # 支持向量的下标
     sVs = datMat[svInd]  # 支持向量
     labelSV = labelMat[svInd]  # 支持向量的类别标签
-    print("there are {} Support Vectors").format(shape(sVs)[0])
+    print("there are {} Support Vectors".format(shape(sVs)[0]))
     m, n = shape(datMat)
     errorCount = 0
     for i in range(m):
@@ -373,7 +373,7 @@ def testDigits(kTup = ('rbf', 10)):
         predict = kernelEval.T * multiply(labelSV, alphas[svInd]) + b  # 得预测值
         if sign(predict) != sign(labelArr[i]):
             errorCount += 1
-    print("the training error rate is {}").format(float(errorCount) / m)
+    print("the training error rate is {}".format(float(errorCount) / m))
     dataArr, labelArr = loadImages('testDigits')
     errorCount = 0
     datMat = mat(dataArr)
@@ -384,4 +384,4 @@ def testDigits(kTup = ('rbf', 10)):
         predict = kernelEval.T * multiply(labelSV, alphas[svInd]) + b  # 得验证集预测值
         if sign(predict) != sign(labelArr[i]):
             errorCount += 1
-    print("the test error rate is: {}").format(float(errorCount) / m)
+    print("the test error rate is: {}".format(float(errorCount) / m))
