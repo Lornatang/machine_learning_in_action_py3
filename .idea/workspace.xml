@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="390" column="3" selection-start-line="390" selection-start-column="3" selection-end-line="390" selection-end-column="3" />
+              <first_editor relative-caret-position="489">
+                <caret line="398" column="61" selection-start-line="398" selection-start-column="61" selection-end-line="398" selection-end-column="61" />
               </first_editor>
               <second_editor />
             </state>
@@ -547,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526951381622</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="update README.md and data">
+      <created>1526987162167</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1526987162167</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -632,7 +639,8 @@
     <MESSAGE value="update data" />
     <MESSAGE value="update svmMLiA.py" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="update README.md and data" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md and data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -867,8 +875,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="390" column="3" selection-start-line="390" selection-start-column="3" selection-end-line="390" selection-end-column="3" />
+          <first_editor relative-caret-position="489">
+            <caret line="398" column="61" selection-start-line="398" selection-start-column="61" selection-end-line="398" selection-end-column="61" />
           </first_editor>
           <second_editor />
         </state>
