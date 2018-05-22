@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4debf451-111f-4bbd-82d2-30171f46836a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch07/adaboost.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,23 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="svmMLiA.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch06/svmMLiA.py">
+      <file leaf-file-name="adaboost.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch07/adaboost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6569">
-              <caret line="383" column="80" selection-start-line="383" selection-start-column="80" selection-end-line="383" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="592">
-                <caret line="521" column="18" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="539">
+              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+              <folding>
+                <element signature="e#54#73#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/src/ch02/KNN.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/ch03/trees.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/README.md" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/ch07/adaboost.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,8 +81,9 @@
         <option value="$PROJECT_DIR$/author" />
         <option value="$PROJECT_DIR$/src/ch04/bayes.py" />
         <option value="$PROJECT_DIR$/src/ch05/logRegres.py" />
-        <option value="$PROJECT_DIR$/src/ch06/svmMLiA.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/ch06/svmMLiA.py" />
+        <option value="$PROJECT_DIR$/src/ch07/adaboost.py" />
       </list>
     </option>
   </component>
@@ -105,7 +98,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
+    <option name="width" value="683" />
     <option name="height" value="794" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -562,7 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526987652196</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update README.md">
+      <created>1526994128106</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1526994128106</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update svmMLiA.py">
+      <created>1526995043303</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1526995043303</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -575,17 +582,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="794" extended-state="0" />
+    <frame x="0" y="22" width="683" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32900432" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50147927" side_tool="true" weight="0.32484847" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50147927" side_tool="true" weight="0.32424676" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998565" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2739394" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985207" weight="0.3272727" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" weight="0.25735295" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985207" weight="0.32711622" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" weight="0.25585023" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" weight="0.32988167" />
@@ -645,10 +652,10 @@
     <MESSAGE value="create logRegres.py" />
     <MESSAGE value="update logRegres.py" />
     <MESSAGE value="update data" />
-    <MESSAGE value="update svmMLiA.py" />
     <MESSAGE value="update README.md and data" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="update svmMLiA.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update svmMLiA.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,20 +880,30 @@
         <state relative-caret-position="-488" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch06/svmMLiA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6569">
-          <caret line="383" column="80" selection-start-line="383" selection-start-column="80" selection-end-line="383" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="592">
-            <caret line="521" column="18" selection-start-line="521" selection-start-column="18" selection-end-line="521" selection-end-column="18" />
+          <first_editor relative-caret-position="120">
+            <caret line="398" column="11" selection-start-line="398" selection-start-column="11" selection-end-line="398" selection-end-column="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch06/svmMLiA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2523">
+          <caret line="379" column="33" selection-start-line="379" selection-start-column="33" selection-end-line="379" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch07/adaboost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <element signature="e#54#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
