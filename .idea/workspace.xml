@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="592">
-                <caret line="1021" column="22" selection-start-line="1021" selection-start-column="22" selection-end-line="1021" selection-end-column="22" />
+              <first_editor relative-caret-position="392">
+                <caret line="1191" lean-forward="true" selection-start-line="1191" selection-end-line="1191" />
               </first_editor>
               <second_editor />
             </state>
@@ -281,20 +281,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526566591823</updated>
-    </task>
-    <task id="LOCAL-00005" summary="numpy函数库基础">
-      <created>1526571197849</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1526571197849</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update README.md">
-      <created>1526571262516</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1526571262516</updated>
     </task>
     <task id="LOCAL-00007" summary="update README.md">
       <created>1526571351637</created>
@@ -625,7 +611,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527059176029</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="update README.md">
+      <created>1527064799245</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1527064799245</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update README.md">
+      <created>1527066173118</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1527066173118</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -976,8 +976,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="592">
-            <caret line="1021" column="22" selection-start-line="1021" selection-start-column="22" selection-end-line="1021" selection-end-column="22" />
+          <first_editor relative-caret-position="392">
+            <caret line="1191" lean-forward="true" selection-start-line="1191" selection-end-line="1191" />
           </first_editor>
           <second_editor />
         </state>
