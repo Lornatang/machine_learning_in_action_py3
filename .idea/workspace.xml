@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4debf451-111f-4bbd-82d2-30171f46836a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+    <list default="true" id="4debf451-111f-4bbd-82d2-30171f46836a" name="Default" comment="update README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="432">
-                <caret line="803" column="29" lean-forward="true" selection-start-line="803" selection-start-column="29" selection-end-line="803" selection-end-column="29" />
+              <first_editor relative-caret-position="-13786">
+                <caret line="175" column="25" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -282,13 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526566591823</updated>
-    </task>
-    <task id="LOCAL-00001" summary="update README.md">
-      <created>1526567654611</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1526567654611</updated>
     </task>
     <task id="LOCAL-00002" summary="update README.md">
       <created>1526569456519</created>
@@ -619,7 +610,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527048390413</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="&#10;update README.md">
+      <created>1527048704390</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1527048704390</updated>
+    </task>
+    <task id="LOCAL-00050" summary="update README.md">
+      <created>1527056886669</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1527056886670</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -640,7 +645,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998565" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2739394" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27259684" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985207" weight="0.32711622" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" weight="0.25585023" />
       <window_info anchor="right" id="R Packages" order="3" />
@@ -685,6 +690,9 @@
       <window_info anchor="bottom" id="Python Console" order="12" />
     </layout-to-restore>
   </component>
+  <component name="ToolsProjectConfig">
+    <afterCommitToolId>Tool_External Tools_autopep8</afterCommitToolId>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -692,6 +700,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="create src" />
     <MESSAGE value="numpy函数库基础" />
     <MESSAGE value="update src to here" />
@@ -706,11 +715,13 @@
     <MESSAGE value="update adaboost.py" />
     <MESSAGE value="update regression.py and data" />
     <MESSAGE value="fix error" />
-    <MESSAGE value="update README.md" />
     <MESSAGE value="update README.md and data" />
     <MESSAGE value="Merge branch 'master' of https://github.com/shiyipaisizuo/machine_learning_in_action&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="&#10;update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;update README.md" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -969,8 +980,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="803" column="29" lean-forward="true" selection-start-line="803" selection-start-column="29" selection-end-line="803" selection-end-column="29" />
+          <first_editor relative-caret-position="-13786">
+            <caret line="175" column="25" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
           </first_editor>
           <second_editor />
         </state>
