@@ -81,10 +81,10 @@ def majoritycnt(classList):
     for vote in classList:
         if vote not in classCount.keys():
             classCount[vote] = 0
-            classCount[vote] += 1
-            sortedClassCount = sorted(classCount.items(), key=operator.itemgetter(1), reverse=True)
+        classCount[vote] += 1
+    sortedClassCount = sorted(classCount.items(), key=operator.itemgetter(1), reverse=True)
 
-            return sortedClassCount
+    return sortedClassCount
 
 
 def create_tree(dataSet, labels):
@@ -109,7 +109,7 @@ def create_tree(dataSet, labels):
         sublables = labels[:]
         mytree[bestfaetlabel][value] = create_tree(split_dataset(dataSet, bestfaet, value), sublables)
 
-        return mytree
+    return mytree
 
 
 def classify(inputtree, featlabels, testvec):
