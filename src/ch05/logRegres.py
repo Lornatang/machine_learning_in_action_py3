@@ -1,7 +1,7 @@
 """
 Create by 2018-05-21
 
-@author: Shiyipaisizuo
+@author: Lornatang
 """
 import matplotlib.pyplot as plt
 from numpy import *
@@ -26,7 +26,7 @@ def load_data_set():
 
 def sigmoid(X):
 
-    return 1.0 / (1+math.exp(-X))
+    return (1.0 / (1+math.exp(-X))) + 1e-8
 
 
 # Logistic回归梯度上升优化算法
@@ -103,7 +103,7 @@ def stoc_grad_ascent1(data_matrix, class_labels, num_iter=150):
     weights = ones(n)
 
     for j in range(num_iter):
-        data_index = range(m)
+        data_index = list(range(m))
         for i in range(m):
 
             # 每次来调整alpha的值
@@ -157,7 +157,7 @@ def colic_test():
             error_count += 1
 
     error_rate = (float(error_count) / num_test_vector)
-    print("the error rate of this test is: {}").format(error_rate)
+    print(f"the error rate of this test is: {error_rate}")
 
     return error_rate
 
@@ -170,4 +170,4 @@ def mul_test():
     for k in range(num_tests):
         error_sum += colic_test()
 
-    print("after {} iterations the average error rate is: {}").format(num_tests, error_sum / float(num_tests))
+    print(f"after {num_tests} iterations the average error rate is: {error_sum / float(num_tests)}")
