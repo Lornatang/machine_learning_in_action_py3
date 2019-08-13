@@ -1,7 +1,7 @@
 """
 Create by 2018-05-21
 
-@author: Lornatang
+@author: Shiyipaisizuo
 """
 import matplotlib.pyplot as plt
 from numpy import *
