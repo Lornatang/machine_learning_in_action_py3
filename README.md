@@ -1188,44 +1188,44 @@
     
     - **大多数机器学习算法都很容易能写成MapReduce作业**
            
-[src]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src
+[src]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/src
 
-[license]:https://github.com/shiyipaisizuo/machine_learning_in_action/blob/master/LICENSE
+[license]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/LICENSE
 
-[version]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/__version__
+[version]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/__version__
 
-[author]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/__author__
+[author]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/__author__
 
 [python]:https://www.python.org/
 
 [numpy]:http://www.numpy.org/
 
-[ch01]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch01
+[ch01]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch01
 
-[ch02]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch02
+[ch02]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch02
 
-[ch03]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch03
+[ch03]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch03
 
-[ch04]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch04
+[ch04]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch04
 
-[ch05]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch05
+[ch05]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch05
 
-[ch06]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch06
+[ch06]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch06
 
-[ch07]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch07
+[ch07]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch07
 
-[ch08]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch08
+[ch08]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch08
 
-[ch09]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch09
+[ch09]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch09
 
-[ch10]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch10
+[ch10]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch10
 
-[ch11]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch11
+[ch11]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch11
 
-[ch12]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch12
+[ch12]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch12
 
-[ch13]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch13
+[ch13]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch13
 
-[ch14]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch14
+[ch14]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch14
 
-[ch15]:https://github.com/shiyipaisizuo/machine_learning_in_action/tree/master/src/ch15
+[ch15]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch15
