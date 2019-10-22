@@ -122,7 +122,7 @@ def test():
 
 # 切割分类文本
 def text_parse(big_string):
-    list_of_tokens = re.split('\W*', big_string)
+    list_of_tokens = re.split('\W+', big_string)
 
     return [tok.lower() for tok in list_of_tokens if len(tok) > 2]
 
