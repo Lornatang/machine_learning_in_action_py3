@@ -1200,32 +1200,32 @@
 
 [numpy]:http://www.numpy.org/
 
-[ch01]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch01
+[ch01]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch01
 
-[ch02]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch02
+[ch02]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch02
 
-[ch03]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch03
+[ch03]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch03
 
-[ch04]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch04
+[ch04]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch04
 
-[ch05]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch05
+[ch05]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch05
 
-[ch06]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch06
+[ch06]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch06
 
-[ch07]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch07
+[ch07]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch07
 
-[ch08]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch08
+[ch08]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch08
 
-[ch09]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch09
+[ch09]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch09
 
-[ch10]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch10
+[ch10]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch10
 
-[ch11]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch11
+[ch11]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch11
 
-[ch12]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch12
+[ch12]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch12
 
-[ch13]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch13
+[ch13]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch13
 
-[ch14]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch14
+[ch14]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch14
 
-[ch15]:https://github.com/lornatang/machine_learning_in_action_py3/tree/master/ch15
+[ch15]:https://github.com/Lornatang/machine_learning_in_action_py3/tree/master/ch15
