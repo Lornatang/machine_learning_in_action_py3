@@ -71,7 +71,7 @@ def plot_best_fit(weights):
     fig = plt.figure()
     ax = fig.add_subplot(111)
 
-    ax.scatter(x1, y1, s=30, c='red', marker='s')
+    ax.scatter(x1, x2, s=30, c='red', marker='s')
     ax.scatter(y1, y2, s=30, c='green')
     x = arange(-3.0, 3.0, 0.1)
 
